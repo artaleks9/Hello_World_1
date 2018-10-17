@@ -16,8 +16,9 @@ public class HelloWorld{
         try {
             hw.print("");
         } catch (WrongString wr) {
-            System.out.println("Empty string!\n"+wr.getMessage());
+            System.out.println("Empty string!\n" + wr.getMessage());
         }
         System.out.println("Hello Aleks!");
     }
 }
+
