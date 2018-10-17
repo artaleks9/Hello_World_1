@@ -12,9 +12,9 @@ public class HelloWorld{
             throw new WrongString();
     }
     public static void main(String[] arg)  {
-        HelloWorld hw = new HelloWorld();
+        HelloWorld helloWorld = new HelloWorld();
         try {
-            hw.print("");
+            helloWorld.print("");
         } catch (WrongString wr) {
             System.out.println("Empty string!\n" + wr.getMessage());
         }
